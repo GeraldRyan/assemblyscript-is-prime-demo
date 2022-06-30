@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="module">
+import { add, isPrime } from "./build/release.js";
+// document.body.innerText = add(1, 2);
+// document.body.innerText = isPrime(7)
+</script>
+</head>
+<body>
+
+    Hello World
+    <div>
+        <form id="prime-checker">
+            <label for="number">Enter a number to check if it is prime:</label>
+            <input name="number" type="number" />
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="result">result: </p>
+
+        <script src="demo.js"></script>
+    </div>
+
+</body>
+</html>
